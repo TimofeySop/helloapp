@@ -7,11 +7,19 @@ namespace MyConsoleApp
         static void Main(string[] args)
         {
             Console.WriteLine("hello everyone");
+            
+            GreetBlack();
+            GreetWhite();
         }
 
         private static void GreetWhite()
         {
             Console.WriteLine("hello white");
+        }
+
+        private static void GreetBlack()
+        {
+            Console.WriteLine("hello black");
         }
     }
 }
